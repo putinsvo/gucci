@@ -1,3 +1,5 @@
+PyQt6
+mss
 ultralytics
 opencv-python
 numpy
