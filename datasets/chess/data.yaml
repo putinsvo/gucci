@@ -1,0 +1,16 @@
+path: /workspaces/gucci/datasets/chess
+train: images/train
+val: images/val
+names:
+  0: white_pawn
+  1: white_knight
+  2: white_bishop
+  3: white_rook
+  4: white_queen
+  5: white_king
+  6: black_pawn
+  7: black_knight
+  8: black_bishop
+  9: black_rook
+  10: black_queen
+  11: black_king

@@ -1,0 +1,15 @@
+{
+  "engine_path": "C:/stockfish/stockfish.exe",
+  "window_title": "Roblox",
+  "orientation": "white",
+  "auto_move": false,
+  "threads": 4,
+  "hash_mb": 256,
+  "multipv": 3,
+  "depth": 18,
+  "movetime_ms": 1000,
+  "skill_level": 20,
+  "click_delay_ms": 80,
+  "hotkey_toggle": "f8",
+  "hotkey_stop": "f12"
+}

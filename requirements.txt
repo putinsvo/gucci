@@ -1,0 +1,8 @@
+PyQt6>=6.6
+mss>=9.0
+opencv-python>=4.9
+numpy>=1.26
+python-chess>=1.999
+pydirectinput>=1.0.4
+pygetwindow>=0.0.9
+keyboard>=0.13.5
