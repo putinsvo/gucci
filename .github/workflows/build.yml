@@ -24,15 +24,7 @@ jobs:
         pip install PyQt6 ultralytics mss python-chess pydirectinput pygetwindow
         
     - name: Build with PyInstaller
-      run: |
-        pyinstaller --noconfirm --onefile --windowed --name "ChessOverlay" ^
-          --hidden-import PyQt6 ^
-          --collect-all PyQt6 ^
-          --collect-all ultralytics ^
-          --add-data "assets;assets" ^
-          --add-data "runs/chess/train/weights/best.pt;." ^
-          --add-data "detect_custom.py;." ^
-          main.py
+      run: pyinstaller --noconfirm --onefile --windowed --name "ChessOverlay" --hidden-import PyQt6 --collect-all PyQt6 --collect-all ultralytics --add-data "assets;assets" --add-data "runs/chess/train/weights/best.pt;." --add-data "detect_custom.py;." main.py
         
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
