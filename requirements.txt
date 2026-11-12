@@ -7,3 +7,4 @@ python-chess
 pygetwindow
 pydirectinput
 pyinstaller
+keyboard
